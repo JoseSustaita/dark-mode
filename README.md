@@ -86,7 +86,7 @@ export const useLocalStorage = (key, initialValue) => {
   - `setValue` should look something like this:
 
 ```js
-const setValue = value => {
+const setValue = (value) => {
   // Save state
   setStoredValue(value);
   // Save to local storage
